@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawerLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbarMain"
+            app:title="Trang chủ"
+            android:background="#4665ce"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+        </androidx.appcompat.widget.Toolbar>
+        <ViewFlipper
+            android:id="@+id/viewFlipperMain"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </ViewFlipper>
+        <LinearLayout
+            android:background="#5992d2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#881504"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sản phẩm mới nhất"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/NavigationMian"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/listviewMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

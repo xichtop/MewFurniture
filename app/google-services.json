@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81047970820",
+    "project_id": "quanlynoithat-df330",
+    "storage_bucket": "quanlynoithat-df330.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81047970820:android:ad3d6bb56ebed770e10151",
+        "android_client_info": {
+          "package_name": "com.example.quanlynoithat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81047970820-44f0ebga4705q2id1fjsvpqvfmfg6idu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1snUD_mVdwOhxo1cKfQ0VqC9CVHeZB5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81047970820-44f0ebga4705q2id1fjsvpqvfmfg6idu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/AB_xemDS"
+        app:showAsAction="never"
+        android:title="@string/danhSach"/>
+    <item
+        android:id="@+id/Ab_them"
+        app:showAsAction="never"
+        android:title="@string/them"/>
+    <item
+        android:id="@+id/AB_troVe"
+        app:showAsAction="never"
+        android:title="@string/troVe"/>
+
+</menu>
